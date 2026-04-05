@@ -1,0 +1,197 @@
+{
+  "season": "summer",
+  "events": [
+    {
+      "start_day": 11,
+      "end_day": 11,
+      "name": "Luau",
+      "description": "Community potluck on the beach. Take an ingredient and enter the beach between 9am and 2pm.",
+      "notes": "Add a high-quality ingredient to increase friendship with all villagers."
+    },
+    {
+      "start_day": 20,
+      "end_day": 21,
+      "name": "Trout Derby",
+      "description": "Catch Rainbow Trout in the Cindersap Forest's river to earn Golden Tags and exchange them at the derby booth.",
+      "notes": "Shops and homes remain open during the Trout Derby."
+    },
+    {
+      "start_day": 28,
+      "end_day": 28,
+      "name": "Dance of the Moonlight Jellies",
+      "description": "Enter the beach between 10pm and 12am to watch migrating jellyfish attracted to a torch lit by Mayor Lewis.",
+      "notes": "There are no activities but a unique shop is available at the festival."
+    }
+  ],
+  "birthdays": [
+    {
+      "day": 4,
+      "npc": "Jas",
+      "icon": "Jas_Icon.png",
+      "portrait": "Jas.png",
+      "loves": [
+        { "name": "Fairy Box", "icon": "Fairy_Box.png" },
+        { "name": "Fairy Rose", "icon": "Fairy_Rose.png" },
+        { "name": "Pink Cake", "icon": "Pink_Cake.png" },
+        { "name": "Plum Pudding", "icon": "Plum_Pudding.png" }
+      ],
+      "likes": [
+        { "name": "Daffodil", "icon": "Daffodil.png" },
+        { "name": "Coconut", "icon": "Coconut.png" }
+      ],
+      "description": "Shane's goddaughter. Lives at Marnie's Ranch."
+    },
+    {
+      "day": 8,
+      "npc": "Gus",
+      "icon": "Gus_Icon.png",
+      "portrait": "Gus.png",
+      "loves": [
+        { "name": "Diamond", "icon": "Diamond.png" },
+        { "name": "Escargot", "icon": "Escargot.png" },
+        { "name": "Fish Taco", "icon": "Fish_Taco.png" },
+        { "name": "Orange", "icon": "Orange.png" },
+        { "name": "Tropical Curry", "icon": "Tropical_Curry.png" }
+      ],
+      "likes": [
+        { "name": "Daffodil", "icon": "Daffodil.png" },
+        { "name": "Truffle", "icon": "Truffle.png" }
+      ],
+      "description": "Runs the Stardrop Saloon in Pelican Town."
+    },
+    {
+      "day": 10,
+      "npc": "Maru",
+      "icon": "Maru_Icon.png",
+      "portrait": "Maru.png",
+      "loves": [
+        { "name": "Battery Pack", "icon": "Battery_Pack.png" },
+        { "name": "Cauliflower", "icon": "Cauliflower.png" },
+        { "name": "Cheese Cauliflower", "icon": "Cheese_Cauliflower.png" },
+        { "name": "Diamond", "icon": "Diamond.png" },
+        { "name": "Gold Bar", "icon": "Gold_Bar.png" },
+        { "name": "Iridium Bar", "icon": "Iridium_Bar.png" },
+        { "name": "Miner's Treat", "icon": "Miners_Treat.png" },
+        { "name": "Pepper Poppers", "icon": "Pepper_Poppers.png" },
+        { "name": "Radioactive Bar", "icon": "Radioactive_Bar.png" },
+        { "name": "Rhubarb Pie", "icon": "Rhubarb_Pie.png" },
+        { "name": "Strawberry", "icon": "Strawberry.png" }
+      ],
+      "likes": [
+        { "name": "Chanterelle", "icon": "Chanterelle.png" },
+        { "name": "Quartz", "icon": "Quartz.png" }
+      ],
+      "description": "Inventor and part-time nurse at Harvey's clinic."
+    },
+    {
+      "day": 13,
+      "npc": "Alex",
+      "icon": "Alex_Icon.png",
+      "portrait": "Alex.png",
+      "loves": [
+        { "name": "Complete Breakfast", "icon": "Complete_Breakfast.png" },
+        { "name": "Salmon Dinner", "icon": "Salmon_Dinner.png" }
+      ],
+      "likes": [
+        { "name": "Field Snack", "icon": "Field_Snack.png" },
+        { "name": "Egg", "icon": "Egg.png" }
+      ],
+      "description": "Lives with his grandparents Evelyn and George."
+    },
+    {
+      "day": 17,
+      "npc": "Sam",
+      "icon": "Sam_Icon.png",
+      "portrait": "Sam.png",
+      "loves": [
+        { "name": "Cactus Fruit", "icon": "Cactus_Fruit.png" },
+        { "name": "Maple Bar", "icon": "Maple_Bar.png" },
+        { "name": "Pizza", "icon": "Pizza.png" },
+        { "name": "Tigerseye", "icon": "Tigerseye.png" }
+      ],
+      "likes": [
+        { "name": "Joja Cola", "icon": "Joja_Cola.png" },
+        { "name": "Egg", "icon": "Egg.png" }
+      ],
+      "description": "Lives with his family on Willow Lane."
+    },
+    {
+      "day": 19,
+      "npc": "Demetrius",
+      "icon": "Demetrius_Icon.png",
+      "portrait": "Demetrius.png",
+      "loves": [
+        { "name": "Bean Hotpot", "icon": "Bean_Hotpot.png" },
+        { "name": "Ice Cream", "icon": "Ice_Cream.png" },
+        { "name": "Rice Pudding", "icon": "Rice_Pudding.png" },
+        { "name": "Strawberry", "icon": "Strawberry.png" }
+      ],
+      "likes": [
+        { "name": "Egg", "icon": "Egg.png" },
+        { "name": "Purple Mushroom", "icon": "Purple_Mushroom.png" }
+      ],
+      "description": "Robin's husband and Maru's father."
+    },
+    {
+      "day": 22,
+      "npc": "Dwarf",
+      "icon": "Dwarf_Icon.png",
+      "portrait": "Dwarf.png",
+      "loves": [
+        { "name": "Amethyst", "icon": "Amethyst.png" },
+        { "name": "Aquamarine", "icon": "Aquamarine.png" },
+        { "name": "Emerald", "icon": "Emerald.png" },
+        { "name": "Jade", "icon": "Jade.png" },
+        { "name": "Lava Eel", "icon": "Lava_Eel.png" },
+        { "name": "Lemon Stone", "icon": "Lemon_Stone.png" },
+        { "name": "Omni Geode", "icon": "Omni_Geode.png" },
+        { "name": "Ruby", "icon": "Ruby.png" },
+        { "name": "Topaz", "icon": "Topaz.png" }
+      ],
+      "likes": [
+        { "name": "Quartz", "icon": "Quartz.png" },
+        { "name": "Cave Carrot", "icon": "Cave_Carrot.png" }
+      ],
+      "description": "Lives in the mines. Requires the Dwarvish Translation Guide to communicate."
+    },
+    {
+      "day": 24,
+      "npc": "Willy",
+      "icon": "Willy_Icon.png",
+      "portrait": "Willy.png",
+      "loves": [
+        { "name": "Catfish", "icon": "Catfish.png" },
+        { "name": "Diamond", "icon": "Diamond.png" },
+        { "name": "Iridium Bar", "icon": "Iridium_Bar.png" },
+        { "name": "Mead", "icon": "Mead.png" },
+        { "name": "Octopus", "icon": "Octopus.png" },
+        { "name": "Pumpkin", "icon": "Pumpkin.png" },
+        { "name": "Sea Cucumber", "icon": "Sea_Cucumber.png" },
+        { "name": "Sturgeon", "icon": "Sturgeon.png" }
+      ],
+      "likes": [
+        { "name": "Baked Fish", "icon": "Baked_Fish.png" },
+        { "name": "Quartz", "icon": "Quartz.png" }
+      ],
+      "description": "Runs the fish shop on the beach. An experienced fisherman and sailor."
+    },
+    {
+      "day": 26,
+      "npc": "Leo",
+      "icon": "Leo_Icon.png",
+      "portrait": "Leo.png",
+      "loves": [
+        { "name": "Duck Feather", "icon": "Duck_Feather.png" },
+        { "name": "Mango", "icon": "Mango.png" },
+        { "name": "Ostrich Egg", "icon": "Ostrich_Egg.png" },
+        { "name": "Parrot Egg", "icon": "Parrot_Egg.png" },
+        { "name": "Poi", "icon": "Poi.png" }
+      ],
+      "likes": [
+        { "name": "Sea Urchin", "icon": "Sea_Urchin.png" },
+        { "name": "Quartz", "icon": "Quartz.png" }
+      ],
+      "description": "A child living on Ginger Island who thinks he is a parrot."
+    }
+  ]
+}
