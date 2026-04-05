@@ -1,0 +1,172 @@
+{
+  "season": "spring",
+  "events": [
+    {
+      "start_day": 13,
+      "end_day": 13,
+      "name": "Egg Festival",
+      "description": "First festival of the year. Enter Pelican Town Square between 9am and 2pm. Speak with Lewis to start the Egg Hunt activity and end the day.",
+      "notes": "Strawberry Seeds costs 100g."
+    },
+    {
+      "start_day": 15,
+      "end_day": 17,
+      "name": "Desert Festival",
+      "description": "Takes place in the Desert and starts at 10am. Earn Calico Eggs to spend on the festival shops.",
+      "notes": "Requires de Bus to be repaired."
+    },
+    {
+      "start_day": 24,
+      "end_day": 24,
+      "name": "Flower Dance",
+      "description": "A spring celebration held in Cindersap Forest. Enter the forest between 9am and 2pm.",
+      "notes": "Ask a villager to dance if the friendship is high enough."
+    }
+  ],
+  "birthdays": [
+    {
+      "day": 4,
+      "npc": "Kent",
+      "icon": "Kent_Icon.png",
+      "portrait": "Kent.png",
+      "loves": [
+        { "name": "Fiddlehead Risotto", "icon": "Fiddlehead_Risotto.png" },
+        { "name": "Roasted Hazelnuts", "icon": "Roasted_Hazelnuts.png" }
+      ],
+      "likes": [
+        { "name": "Daffodil", "icon": "Daffodil.png" },
+        { "name": "Dwarvish Safety Manual", "icon": "Dwarvish_Safety_Manual.png" }
+      ],
+      "description": "Away serving in the army throughout the first year. Returns during spring of year two."
+    },
+    {
+      "day": 7,
+      "npc": "Lewis",
+      "icon": "Lewis_Icon.png",
+      "portrait": "Lewis.png",
+      "loves": [
+        { "name": "Autumn's Bounty", "icon": "Autumns_Bounty.png" },
+        { "name": "Glazed Yams", "icon": "Glazed_Yams.png" },
+        { "name": "Green Tea", "icon": "Green_Tea.png" },
+        { "name": "Hot Pepper", "icon": "Hot_Pepper.png" },
+        { "name": "Vegetable Medley", "icon": "Vegetable_Medley.png" }
+      ],
+      "likes": [
+        { "name": "Blueberry", "icon": "Blueberry.png" },
+        { "name": "Cactus Fruit", "icon": "Cactus_Fruit.png" },
+        { "name": "Coconut", "icon": "Coconut.png" }
+      ],
+      "description": "Mayor of Pelican Town."
+    },
+    {
+      "day": 10,
+      "npc": "Vincent",
+      "icon": "Vincent_Icon.png",
+      "portrait": "Vincent.png",
+      "loves": [
+        { "name": "Cranberry Candy", "icon": "Cranberry_Candy.png" },
+        { "name": "Frog Egg", "icon": "Frog_Egg.png" },
+        { "name": "Ginger Ale", "icon": "Ginger_Ale.png" },
+        { "name": "Grape", "icon": "Grape.png" },
+        { "name": "Pink Cake", "icon": "Pink_Cake.png" },
+        { "name": "Snail", "icon": "Snail.png" }
+      ],
+      "likes": [
+        { "name": "Daffodil", "icon": "Daffodil.png" },
+        { "name": "Coconut", "icon": "Coconut.png" }
+      ],
+      "description": "Jodi and Kent's son."
+    },
+    {
+      "day": 14,
+      "npc": "Haley",
+      "icon": "Haley_Icon.png",
+      "portrait": "Haley.png",
+      "loves": [
+        { "name": "Coconut", "icon": "Coconut.png" },
+        { "name": "Fruit Salad", "icon": "Fruit_Salad.png" },
+        { "name": "Pink Cake", "icon": "Pink_Cake.png" },
+        { "name": "Sunflower", "icon": "Sunflower.png" }
+      ],
+      "likes": [
+        { "name": "Daffodil", "icon": "Daffodil.png" }
+      ],
+      "description": "Emily's younger sister."
+    },
+    {
+      "day": 18,
+      "npc": "Pam",
+      "icon": "Pam_Icon.png",
+      "portrait": "Pam.png",
+      "loves": [
+        { "name": "Beer", "icon": "Beer.png" },
+        { "name": "Cactus Fruit", "icon": "Cactus_Fruit.png" },
+        { "name": "Glazed Yams", "icon": "Glazed_Yams.png" },
+        { "name": "Mead", "icon": "Mead.png" },
+        { "name": "Pale Ale", "icon": "Pale_Ale.png" },
+        { "name": "Parsnip", "icon": "Parsnip.png" },
+        { "name": "Parsnip Soup", "icon": "Parsnip_Soup.png" },
+        { "name": "Pina Colada", "icon": "Pina_Colada.png" }
+      ],
+      "likes": [
+        { "name": "Daffodil", "icon": "Daffodil.png" },
+        { "name": "Milk", "icon": "Milk.png" }
+      ],
+      "description": "Penny's mother. Drives the bus to the Calico Desert once it is repaired."
+    },
+    {
+      "day": 20,
+      "npc": "Shane",
+      "icon": "Shane_Icon.png",
+      "portrait": "Shane.png",
+      "loves": [
+        { "name": "Beer", "icon": "Beer.png" },
+        { "name": "Hot Pepper", "icon": "Hot_Pepper.png" },
+        { "name": "Pepper Poppers", "icon": "Pepper_Poppers.png" },
+        { "name": "Pizza", "icon": "Pizza.png" }
+      ],
+      "likes": [
+        { "name": "Daffodil", "icon": "Daffodil.png" },
+        { "name": "Egg", "icon": "Egg.png" }
+      ],
+      "description": "Lives at Marnie's Ranch. Works at JojaMart while it is open."
+    },
+    {
+      "day": 26,
+      "npc": "Pierre",
+      "icon": "Pierre_Icon.png",
+      "portrait": "Pierre.png",
+      "loves": [
+        { "name": "Fried Calamari", "icon": "Fried_Calamari.png" },
+        { "name": "Price Catalogue", "icon": "Price_Catalogue.png" }
+      ],
+      "likes": [
+        { "name": "Daffodil", "icon": "Daffodil.png" },
+        { "name": "Dandelion", "icon": "Dandelion.png" }
+      ],
+      "description": "Runs the general store in Pelican Town."
+    },
+    {
+      "day": 27,
+      "npc": "Emily",
+      "icon": "Emily_Icon.png",
+      "portrait": "Emily.png",
+      "loves": [
+        { "name": "Amethyst", "icon": "Amethyst.png" },
+        { "name": "Aquamarine", "icon": "Aquamarine.png" },
+        { "name": "Cloth", "icon": "Cloth.png" },
+        { "name": "Emerald", "icon": "Emerald.png" },
+        { "name": "Jade", "icon": "Jade.png" },
+        { "name": "Ruby", "icon": "Ruby.png" },
+        { "name": "Survival Burger", "icon": "Survival_Burger.png" },
+        { "name": "Topaz", "icon": "Topaz.png" },
+        { "name": "Wool", "icon": "Wool.png" }
+      ],
+      "likes": [
+        { "name": "Daffodil", "icon": "Daffodil.png" },
+        { "name": "Quartz", "icon": "Quartz.png" }
+      ],
+      "description": "Haley's older sister. Works part-time at the Stardrop Saloon."
+    }
+  ]
+}
