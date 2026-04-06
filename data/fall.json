@@ -1,0 +1,170 @@
+{
+  "season": "fall",
+  "events": [
+    {
+      "start_day": 16,
+      "end_day": 16,
+      "name": "Stardew Valley Fair",
+      "description": "Enter Pelican Town between 9am and 3pm. Win mini-games and participate in the showcase competition to earn Star Tokens.",
+      "notes": "Winning the Grange Display earns 1000 Star Tokens. A Stardrop can be purchased at the prize booth."
+    },
+    {
+      "start_day": 27,
+      "end_day": 27,
+      "name": "Spirit's Eve",
+      "description": "Festival held in Pelican Town between 10pm and 11:50pm. Navigate the haunted maze to find a Golden Pumpkin or a Prize Ticket.",
+      "notes": "Unique decorative items available at the shop."
+    }
+  ],
+  "birthdays": [
+    {
+      "day": 2,
+      "npc": "Penny",
+      "icon": "Penny_Icon.png",
+      "portrait": "Penny.png",
+      "loves": [
+        { "name": "Diamond", "icon": "Diamond.png" },
+        { "name": "Emerald", "icon": "Emerald.png" },
+        { "name": "Melon", "icon": "Melon.png" },
+        { "name": "Poppy", "icon": "Poppy.png" },
+        { "name": "Poppyseed Muffin", "icon": "Poppyseed_Muffin.png" },
+        { "name": "Red Plate", "icon": "Red_Plate.png" },
+        { "name": "Roots Platter", "icon": "Roots_Platter.png" },
+        { "name": "Sandfish", "icon": "Sandfish.png" },
+        { "name": "Tom Kha Soup", "icon": "Tom_Kha_Soup.png" }
+      ],
+      "likes": [
+        { "name": "Leek", "icon": "Leek.png" },
+        { "name": "Dandelion", "icon": "Dandelion.png" }
+      ],
+      "description": "Pam's daughter. Tutors Vincent and Jas."
+    },
+    {
+      "day": 5,
+      "npc": "Elliott",
+      "icon": "Elliott_Icon.png",
+      "portrait": "Elliott.png",
+      "loves": [
+        { "name": "Crab Cakes", "icon": "Crab_Cakes.png" },
+        { "name": "Duck Feather", "icon": "Duck_Feather.png" },
+        { "name": "Lobster", "icon": "Lobster.png" },
+        { "name": "Pomegranate", "icon": "Pomegranate.png" },
+        { "name": "Squid Ink", "icon": "Squid_Ink.png" },
+        { "name": "Tom Kha Soup", "icon": "Tom_Kha_Soup.png" }
+      ],
+      "likes": [
+        { "name": "Octopus", "icon": "Octopus.png" },
+        { "name": "Squid", "icon": "Squid.png" }
+      ],
+      "description": "Lives alone in a cabin on the beach, working on his novel."
+    },
+    {
+      "day": 11,
+      "npc": "Jodi",
+      "icon": "Jodi_Icon.png",
+      "portrait": "Jodi.png",
+      "loves": [
+        { "name": "Chocolate Cake", "icon": "Chocolate_Cake.png" },
+        { "name": "Crispy Bass", "icon": "Crispy_Bass.png" },
+        { "name": "Diamond", "icon": "Diamond.png" },
+        { "name": "Eggplant Parmesan", "icon": "Eggplant_Parmesan.png" },
+        { "name": "Fried Eel", "icon": "Fried_Eel.png" },
+        { "name": "Pancakes", "icon": "Pancakes.png" },
+        { "name": "Rhubarb Pie", "icon": "Rhubarb_Pie.png" },
+        { "name": "Vegetable Medley", "icon": "Vegetable_Medley.png" }
+      ],
+      "likes": [
+        { "name": "Milk", "icon": "Milk.png" },
+        { "name": "Egg", "icon": "Egg.png" }
+      ],
+      "description": "Kent's wife and mother of Sam and Vincent."
+    },
+    {
+      "day": 13,
+      "npc": "Abigail",
+      "icon": "Abigail_Icon.png",
+      "portrait": "Abigail.png",
+      "loves": [
+        { "name": "Amethyst", "icon": "Amethyst.png" },
+        { "name": "Banana Pudding", "icon": "Banana_Pudding.png" },
+        { "name": "Blackberry Cobbler", "icon": "Blackberry_Cobbler.png" },
+        { "name": "Chocolate Cake", "icon": "Chocolate_Cake.png" },
+        { "name": "Monster Compendium", "icon": "Monster_Compendium.png" },
+        { "name": "Pufferfish", "icon": "Pufferfish.png" },
+        { "name": "Pumpkin", "icon": "Pumpkin.png" },
+        { "name": "Spicy Eel", "icon": "Spicy_Eel.png" }
+      ],
+      "likes": [
+        { "name": "Maple Syrup", "icon": "Maple_Syrup.png" },
+        { "name": "Quartz", "icon": "Quartz.png" }
+      ],
+      "description": "Pierre and Caroline's daughter."
+    },
+    {
+      "day": 15,
+      "npc": "Sandy",
+      "icon": "Sandy_Icon.png",
+      "portrait": "Sandy.png",
+      "loves": [
+        { "name": "Crocus", "icon": "Crocus.png" },
+        { "name": "Daffodil", "icon": "Daffodil.png" },
+        { "name": "Mango Sticky Rice", "icon": "Mango_Sticky_Rice.png" },
+        { "name": "Sweet Pea", "icon": "Sweet_Pea.png" }
+      ],
+      "likes": [
+        { "name": "Quartz", "icon": "Quartz.png" },
+        { "name": "Cactus Fruit", "icon": "Cactus_Fruit.png" }
+      ],
+      "description": "Runs the Oasis shop in the Calico Desert."
+    },
+    {
+      "day": 18,
+      "npc": "Marnie",
+      "icon": "Marnie_Icon.png",
+      "portrait": "Marnie.png",
+      "loves": [
+        { "name": "Diamond", "icon": "Diamond.png" },
+        { "name": "Farmer's Lunch", "icon": "Farmers_Lunch.png" },
+        { "name": "Pink Cake", "icon": "Pink_Cake.png" },
+        { "name": "Pumpkin Pie", "icon": "Pumpkin_Pie.png" }
+      ],
+      "likes": [
+        { "name": "Milk", "icon": "Milk.png" },
+        { "name": "Egg", "icon": "Egg.png" }
+      ],
+      "description": "Runs Marnie's Ranch south of the farm."
+    },
+    {
+      "day": 21,
+      "npc": "Robin",
+      "icon": "Robin_Icon.png",
+      "portrait": "Robin.png",
+      "loves": [
+        { "name": "Goat Cheese", "icon": "Goat_Cheese.png" },
+        { "name": "Peach", "icon": "Peach.png" },
+        { "name": "Spaghetti", "icon": "Spaghetti.png" },
+        { "name": "Woody's Secret", "icon": "Woodys_Secret.png" }
+      ],
+      "likes": [
+        { "name": "Quartz", "icon": "Quartz.png" },
+        { "name": "Hardwood", "icon": "Hardwood.png" }
+      ],
+      "description": "Carpenter who runs the shop north of town."
+    },
+    {
+      "day": 24,
+      "npc": "George",
+      "icon": "George_Icon.png",
+      "portrait": "George.png",
+      "loves": [
+        { "name": "Fried Mushroom", "icon": "Fried_Mushroom.png" },
+        { "name": "Leek", "icon": "Leek.png" }
+      ],
+      "likes": [
+        { "name": "Daffodil", "icon": "Daffodil.png" },
+        { "name": "Maple Syrup", "icon": "Maple_Syrup.png" }
+      ],
+      "description": "Evelyn's husband and Alex's grandfather."
+    }
+  ]
+}
