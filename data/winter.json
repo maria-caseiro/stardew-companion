@@ -1,0 +1,211 @@
+{
+  "season": "winter",
+  "events": [
+    {
+      "start_day": 8,
+      "end_day": 8,
+      "name": "Festival of Ice",
+      "description": "Enter Cindersap Forest between 9am and 2pm. Catch at least five fish to win the Ice Fishing Contest. Winning grants a Prize Ticket.",
+      "notes": "A Tree of the Winter Star can be bought for 5,000g."
+    },
+    {
+      "start_day": 12,
+      "end_day": 13,
+      "name": "SquidFest",
+      "description": "Mini festival held at the Beach where squid can be fished all day. Earn prizes with certain amounts of squid.",
+      "notes": "Increase the chance of catching squid by craftting a Bait Maker to obtain Squid Bait."
+    },
+    {
+      "start_day": 15,
+      "end_day": 17,
+      "name": "Night Market",
+      "description": "A four-day market held on the beach at night. Features unique vendors, a submarine fishing ride, and a mermaid show. Enter the Beach after 5pm.",
+      "notes": "The submarine allows fishing for deep-sea creatures."
+    },
+    {
+      "start_day": 25,
+      "end_day": 25,
+      "name": "Feast of the Winter Star",
+      "description": "A secret gift-giving festival. Enter the town between 9am and 2pm. A random villager gives you a gift, and you are assigned a villager to give a gift to.",
+      "notes": "Friendship increases with all villagers at the festival."
+    }
+  ],
+  "birthdays": [
+    {
+      "day": 1,
+      "npc": "Krobus",
+      "icon": "Krobus_Icon.png",
+      "portrait": "Krobus.png",
+      "loves": [
+        { "name": "Diamond", "icon": "Diamond.png" },
+        { "name": "Iridium Bar", "icon": "Iridium_Bar.png" },
+        { "name": "Monster Compendium", "icon": "Monster_Compendium.png" },
+        { "name": "Monster Musk", "icon": "Monster_Musk.png" },
+        { "name": "Pumpkin", "icon": "Pumpkin.png" },
+        { "name": "Void Egg", "icon": "Void_Egg.png" },
+        { "name": "Void Mayonnaise", "icon": "Void_Mayonnaise.png" },
+        { "name": "Wild Horseradish", "icon": "Wild_Horseradish.png" }
+      ],
+      "likes": [
+        { "name": "Quartz", "icon": "Quartz.png" },
+        { "name": "Gold Bar", "icon": "Gold_Bar.png" }
+      ],
+      "description": "A shadow creature living in the sewers. Can become a roommate but cannot be romanced."
+    },
+    {
+      "day": 3,
+      "npc": "Linus",
+      "icon": "Linus_Icon.png",
+      "portrait": "Linus.png",
+      "loves": [
+        { "name": "Blueberry Tart", "icon": "Blueberry_Tart.png" },
+        { "name": "Cactus Fruit", "icon": "Cactus_Fruit.png" },
+        { "name": "Coconut", "icon": "Coconut.png" },
+        { "name": "Dish O' The Sea", "icon": "Dish_O_The_Sea.png" },
+        { "name": "The Alleyway Buffet", "icon": "The_Alleyway_Buffet.png" },
+        { "name": "Yam", "icon": "Yam.png" }
+      ],
+      "likes": [
+        { "name": "Daffodil", "icon": "Daffodil.png" },
+        { "name": "Snow Yam", "icon": "Snow_Yam.png" }
+      ],
+      "description": "Lives in a tent on the mountain north of town."
+    },
+    {
+      "day": 7,
+      "npc": "Caroline",
+      "icon": "Caroline_Icon.png",
+      "portrait": "Caroline.png",
+      "loves": [
+        { "name": "Fish Taco", "icon": "Fish_Taco.png" },
+        { "name": "Green Tea", "icon": "Green_Tea.png" },
+        { "name": "Summer Spangle", "icon": "Summer_Spangle.png" },
+        { "name": "Tropical Curry", "icon": "Tropical_Curry.png" }
+      ],
+      "likes": [
+        { "name": "Daffodil", "icon": "Daffodil.png" },
+        { "name": "Wild Horseradish", "icon": "Wild_Horseradish.png" }
+      ],
+      "description": "Pierre's wife and Abigail's mother."
+    },
+    {
+      "day": 10,
+      "npc": "Sebastian",
+      "icon": "Sebastian_Icon.png",
+      "portrait": "Sebastian.png",
+      "loves": [
+        { "name": "Frog Egg", "icon": "Frog_Egg.png" },
+        { "name": "Frozen Tear", "icon": "Frozen_Tear.png" },
+        { "name": "Obsidian", "icon": "Obsidian.png" },
+        { "name": "Pumpkin Soup", "icon": "Pumpkin_Soup.png" },
+        { "name": "Sashimi", "icon": "Sashimi.png" },
+        { "name": "Void Egg", "icon": "Void_Egg.png" }
+      ],
+      "likes": [
+        { "name": "Quartz", "icon": "Quartz.png" },
+        { "name": "Flounder", "icon": "Flounder.png" }
+      ],
+      "description": "Robin's son. A programmer who spends most of his time in his basement room."
+    },
+    {
+      "day": 14,
+      "npc": "Harvey",
+      "icon": "Harvey_Icon.png",
+      "portrait": "Harvey.png",
+      "loves": [
+        { "name": "Coffee", "icon": "Coffee.png" },
+        { "name": "Pickles", "icon": "Pickles.png" },
+        { "name": "Super Meal", "icon": "Super_Meal.png" },
+        { "name": "Truffle Oil", "icon": "Truffle_Oil.png" },
+        { "name": "Wine", "icon": "Wine.png" }
+      ],
+      "likes": [
+        { "name": "Winter Root", "icon": "Winter_Root.png" },
+        { "name": "Snow Yam", "icon": "Snow_Yam.png" }
+      ],
+      "description": "Pelican Town's doctor, runs the clinic."
+    },
+    {
+      "day": 17,
+      "npc": "Wizard",
+      "icon": "Wizard_Icon.png",
+      "portrait": "Wizard.png",
+      "loves": [
+        { "name": "Book of Mysteries", "icon": "Book_of_Mysteries.png" },
+        { "name": "Purple Mushroom", "icon": "Purple_Mushroom.png" },
+        { "name": "Solar Essence", "icon": "Solar_Essence.png" },
+        { "name": "Super Cucumber", "icon": "Super_Cucumber.png" },
+        { "name": "Void Essence", "icon": "Void_Essence.png" }
+      ],
+      "likes": [
+        { "name": "Quartz", "icon": "Quartz.png" },
+        { "name": "Iridium Bar", "icon": "Iridium_Bar.png" }
+      ],
+      "description": "A mysterious wizard living in a tower at the edge of Cindersap Forest."
+    },
+    {
+      "day": 20,
+      "npc": "Evelyn",
+      "icon": "Evelyn_Icon.png",
+      "portrait": "Evelyn.png",
+      "loves": [
+        { "name": "Beet", "icon": "Beet.png" },
+        { "name": "Chocolate Cake", "icon": "Chocolate_Cake.png" },
+        { "name": "Diamond", "icon": "Diamond.png" },
+        { "name": "Fairy Rose", "icon": "Fairy_Rose.png" },
+        { "name": "Raisins", "icon": "Raisins.png" },
+        { "name": "Stuffing", "icon": "Stuffing.png" },
+        { "name": "Tulip", "icon": "Tulip.png" }
+      ],
+      "likes": [
+        { "name": "Daffodil", "icon": "Daffodil.png" },
+        { "name": "Milk", "icon": "Milk.png" }
+      ],
+      "description": "George's wife and Alex's grandmother."
+    },
+    {
+      "day": 23,
+      "npc": "Leah",
+      "icon": "Leah_Icon.png",
+      "portrait": "Leah.png",
+      "loves": [
+        { "name": "Goat Cheese", "icon": "Goat_Cheese.png" },
+        { "name": "Poppyseed Muffin", "icon": "Poppyseed_Muffin.png" },
+        { "name": "Salad", "icon": "Salad.png" },
+        { "name": "Stir Fry", "icon": "Stir_Fry.png" },
+        { "name": "Truffle", "icon": "Truffle.png" },
+        { "name": "Vegetable Medley", "icon": "Vegetable_Medley.png" },
+        { "name": "Wine", "icon": "Wine.png" }
+      ],
+      "likes": [
+        { "name": "Milk", "icon": "Milk.png" },
+        { "name": "Winter Root", "icon": "Winter_Root.png" }
+      ],
+      "description": "An artist living in a cottage in Cindersap Forest."
+    },
+    {
+      "day": 26,
+      "npc": "Clint",
+      "icon": "Clint_Icon.png",
+      "portrait": "Clint.png",
+      "loves": [
+        { "name": "Amethyst", "icon": "Amethyst.png" },
+        { "name": "Aquamarine", "icon": "Aquamarine.png" },
+        { "name": "Artichoke Dip", "icon": "Artichoke_Dip.png" },
+        { "name": "Emerald", "icon": "Emerald.png" },
+        { "name": "Fiddlehead Risotto", "icon": "Fiddlehead_Risotto.png" },
+        { "name": "Gold Bar", "icon": "Gold_Bar.png" },
+        { "name": "Iridium Bar", "icon": "Iridium_Bar.png" },
+        { "name": "Jade", "icon": "Jade.png" },
+        { "name": "Omni Geode", "icon": "Omni_Geode.png" },
+        { "name": "Ruby", "icon": "Ruby.png" },
+        { "name": "Topaz", "icon": "Topaz.png" }
+      ],
+      "likes": [
+        { "name": "Copper Bar", "icon": "Copper_Bar.png" },
+        { "name": "Iron Bar", "icon": "Iron_Bar.png" }
+      ],
+      "description": "The town blacksmith. Upgrades tools and processes ores and geodes."
+    }
+  ]
+}
