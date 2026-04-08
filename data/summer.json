@@ -5,7 +5,7 @@
       "start_day": 11,
       "end_day": 11,
       "name": "Luau",
-      "description": "Community potluck on the beach. Take an ingredient and enter the beach between 9am and 2pm.",
+      "description": "Community potluck on the Beach. Take an ingredient and enter the Beach between 9am and 2pm.",
       "notes": "Add a high-quality ingredient to increase friendship with all villagers."
     },
     {
@@ -19,7 +19,7 @@
       "start_day": 28,
       "end_day": 28,
       "name": "Dance of the Moonlight Jellies",
-      "description": "Enter the beach between 10pm and 12am to watch migrating jellyfish attracted to a torch lit by Mayor Lewis.",
+      "description": "Enter the Beach between 10pm and 12am to watch migrating jellyfish attracted to a torch lit by Mayor Lewis.",
       "notes": "There are no activities but a unique shop is available at the festival."
     }
   ],

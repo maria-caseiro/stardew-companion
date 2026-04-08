@@ -12,14 +12,14 @@
       "start_day": 12,
       "end_day": 13,
       "name": "SquidFest",
-      "description": "Mini festival held at the Beach where squid can be fished all day. Earn prizes with certain amounts of squid.",
+      "description": "Mini festival held on the Beach where squid can be fished all day. Earn prizes with certain amounts of squid.",
       "notes": "Increase the chance of catching squid by craftting a Bait Maker to obtain Squid Bait."
     },
     {
       "start_day": 15,
       "end_day": 17,
       "name": "Night Market",
-      "description": "A four-day market held on the beach at night. Features unique vendors, a submarine fishing ride, and a mermaid show. Enter the Beach after 5pm.",
+      "description": "Festival held on the Beach at night. Features unique vendors, a submarine fishing ride, and a mermaid show. Enter the Beach after 5pm.",
       "notes": "The submarine allows fishing for deep-sea creatures."
     },
     {
