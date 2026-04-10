@@ -112,7 +112,7 @@ class MainWindow(ctk.CTkFrame):
         card.grid_propagate(False)
 
         # Event icon
-        img = self._load_image("", "Event_Icon.png", (28, 28))
+        img = self._load_image("icons", "Event_Icon.png", (28, 28))
         ctk.CTkLabel(
             card,
             image=img,
