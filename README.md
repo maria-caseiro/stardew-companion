@@ -1,13 +1,16 @@
 # Stardew Valley Companion
 
-I'm working on a simple Python application that lists birthdays and events for each season.
+Simple desktop application for Stardew Valley that displays birthdays and events for each season.
 
-The application will display a page for each NPC with information and gift preferences.
-
-Each event will also have a summary page detailing what happens that day.
+- Browse events and birthdays by season
+- Click on event cards to view its description and special notes
+- Click NPC cards to view their portrait, description and gift preferences
+- Hover over gift icons to read its labels
 
 ---
 
-Stardew Valley and all related assets are property of ConcernedApe.
+This is an unofficial fan project for personal learning purposes.
 
-This is an unofficial fan project for me to learn Python.
+Game data sourced from [stardewvalleywiki.com](https://stardewvalleywiki.com).
+
+Stardew Valley and all related assets are property of ConcernedApe.
