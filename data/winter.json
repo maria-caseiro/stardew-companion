@@ -12,21 +12,21 @@
       "start_day": 12,
       "end_day": 13,
       "name": "SquidFest",
-      "description": "Mini festival held on the Beach where squid can be fished all day. Earn prizes with certain amounts of squid.",
-      "notes": "Increase the chance of catching squid by craftting a Bait Maker to obtain Squid Bait."
+      "description": "Mini festival held on the Beach where squid can be fished all day. Earn prizes by catching certain amounts of squid. The count resets each day.",
+      "notes": "Craft a Bait Maker to obtain Squid Bait."
     },
     {
       "start_day": 15,
       "end_day": 17,
       "name": "Night Market",
       "description": "Festival held on the Beach at night. Features unique vendors, a submarine fishing ride, and a mermaid show. Enter the Beach after 5pm.",
-      "notes": "The submarine allows fishing for deep-sea creatures."
+      "notes": "Fish for deep-sea creatures with the submarine."
     },
     {
       "start_day": 25,
       "end_day": 25,
       "name": "Feast of the Winter Star",
-      "description": "A secret gift-giving festival. Enter the town between 9am and 2pm. A random villager gives you a gift, and you are assigned a villager to give a gift to.",
+      "description": "A secret gift-giving festival. Enter the town between 9am and 2pm. A villager will be assigned to give a gift to, and a random one will give you a gift.",
       "notes": "Friendship increases with all villagers at the festival."
     }
   ],

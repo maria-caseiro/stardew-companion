@@ -5,22 +5,22 @@
       "start_day": 11,
       "end_day": 11,
       "name": "Luau",
-      "description": "Community potluck on the Beach. Take an ingredient and enter the Beach between 9am and 2pm.",
-      "notes": "Add a high-quality ingredient to increase friendship with all villagers."
+      "description": "Festival with a communal potluck soup held on the Beach. Take a high-quality ingredient and enter the Beach between 9am and 2pm.",
+      "notes": "Gold ingredients: Cauliflower, Cheese, Goats Milk, Truffle."
     },
     {
       "start_day": 20,
       "end_day": 21,
       "name": "Trout Derby",
-      "description": "Catch Rainbow Trout in the Cindersap Forest's river to earn Golden Tags and exchange them at the derby booth.",
+      "description": "All-day fishing festival to catch Rainbow Trout in Cindersap Forest river. Earn Golden Tags and exchange them at the derby booth.",
       "notes": "Shops and homes remain open during the Trout Derby."
     },
     {
       "start_day": 28,
       "end_day": 28,
       "name": "Dance of the Moonlight Jellies",
-      "description": "Enter the Beach between 10pm and 12am to watch migrating jellyfish attracted to a torch lit by Mayor Lewis.",
-      "notes": "There are no activities but a unique shop is available at the festival."
+      "description": "Enter the Beach between 10pm and 12am to watch migrating jellyfish. Talk to Mayor Lewis to light up a torch that attracts jellyfish.",
+      "notes": "There is a unique booth available at the festival."
     }
   ],
   "birthdays": [
@@ -173,7 +173,7 @@
         { "name": "Baked Fish", "icon": "Baked_Fish.png" },
         { "name": "Quartz", "icon": "Quartz.png" }
       ],
-      "description": "Runs the fish shop on the beach. An experienced fisherman and sailor."
+      "description": "Runs the fish shop on the Beach. An experienced fisherman and sailor."
     },
     {
       "day": 26,

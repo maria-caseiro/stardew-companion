@@ -12,15 +12,15 @@
       "start_day": 15,
       "end_day": 17,
       "name": "Desert Festival",
-      "description": "Takes place in the Desert and starts at 10am. Earn Calico Eggs to spend on the festival shops.",
-      "notes": "Requires de Bus to be repaired."
+      "description": "A multi-day festival held in the Calico Desert, starting at 10am. Complete challenges to earn Calico Eggs and spend them on the festival shops.",
+      "notes": "Calico Eggs disappear at the end of the festival."
     },
     {
       "start_day": 24,
       "end_day": 24,
       "name": "Flower Dance",
-      "description": "A spring celebration held in Cindersap Forest. Enter the forest between 9am and 2pm.",
-      "notes": "Ask a villager to dance if the friendship is high enough."
+      "description": "A spring celebration held in Cindersap Forest with a booth available. Cross the far west bridge of the forest between 9am and 2pm.",
+      "notes": "Dancing with a villager increases friendship by one heart. "
     }
   ],
   "birthdays": [
