@@ -1,3 +1,0 @@
-([('main',
-   '/Users/maria/Desktop/code/stardew-companion/dist/main',
-   'EXECUTABLE')],)
