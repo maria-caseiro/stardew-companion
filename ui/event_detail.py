@@ -1,5 +1,7 @@
 import customtkinter as ctk
 
+FONT = "Segoe UI"
+
 class EventDetail(ctk.CTkFrame):
     def __init__(self, parent, event: dict):
         # Overlay frame
@@ -12,7 +14,7 @@ class EventDetail(ctk.CTkFrame):
             self,
             corner_radius=12,
             fg_color="#f2edcb",
-            border_width=1,
+            border_width=2,
             border_color="#5a8a3c",
             width=400,
             height=260,
@@ -24,7 +26,7 @@ class EventDetail(ctk.CTkFrame):
         ctk.CTkLabel(
             panel,
             text=event["name"],
-            font=ctk.CTkFont(size=15, weight="bold"),
+            font=ctk.CTkFont(family=FONT, size=15, weight="bold"),
             fg_color="transparent",
             text_color="#18280E",
         ).pack(pady=(25, 2))
@@ -38,21 +40,19 @@ class EventDetail(ctk.CTkFrame):
         ctk.CTkLabel(
             panel,
             text=day_text,
-            font=ctk.CTkFont(size=12),
+            font=ctk.CTkFont(family=FONT, size=12),
             fg_color="transparent",
             text_color="gray",
         ).pack()
 
         # Divider
-        ctk.CTkFrame(panel, height=1, fg_color="#c8c09a").pack(
-            fill="x", padx=25, pady=15
-        )
+        ctk.CTkFrame(panel, height=2, fg_color="#c8c09a").pack(fill="x", padx=25, pady=15)
 
         # Event description
         ctk.CTkLabel(
             panel,
             text=event["description"],
-            font=ctk.CTkFont(size=13),
+            font=ctk.CTkFont(family=FONT, size=13),
             fg_color="transparent",
             text_color="#18280E",
             wraplength=320,
@@ -63,7 +63,7 @@ class EventDetail(ctk.CTkFrame):
         ctk.CTkLabel(
             panel,
             text=event["notes"],
-            font=ctk.CTkFont(size=11),
+            font=ctk.CTkFont(family=FONT, size=11),
             fg_color="transparent",
             text_color="gray",
             wraplength=360,

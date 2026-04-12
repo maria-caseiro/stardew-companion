@@ -6,6 +6,7 @@ from ui.event_detail import EventDetail
 from ui.npc_detail import NPCDetail
 
 SEASONS = ["spring", "summer", "fall", "winter"]
+FONT = "Segoe UI"
 
 # Fixed card dimensions
 EVENT_CARD_WIDTH = 130
@@ -62,7 +63,7 @@ class MainWindow(ctk.CTkFrame):
         ctk.CTkLabel(
             self.content,
             text="Events",
-            font=ctk.CTkFont(size=13, weight="bold"),
+            font=ctk.CTkFont(family=FONT, size=13, weight="bold"),
             fg_color="transparent",
             text_color="#18280E"
         ).pack(anchor="w", pady=(2, 5))
@@ -78,7 +79,7 @@ class MainWindow(ctk.CTkFrame):
         ctk.CTkLabel(
             self.content,
             text="Birthdays",
-            font=ctk.CTkFont(size=13, weight="bold"),
+            font=ctk.CTkFont(family=FONT, size=13, weight="bold"),
             fg_color="transparent",
             text_color="#18280E"
         ).pack(anchor="w", pady=(0, 5))
@@ -133,10 +134,10 @@ class MainWindow(ctk.CTkFrame):
         ctk.CTkLabel(
             card,
             text=event["name"],
-            font=ctk.CTkFont(size=11, weight='bold'),
+            font=ctk.CTkFont(family=FONT, size=11, weight='bold'),
             fg_color="transparent",
             text_color="#18280E",
-            wraplength=EVENT_CARD_WIDTH - 30
+            wraplength=EVENT_CARD_WIDTH - 25
             ).place(relx=0.5, rely=0.55, anchor="center")
 
         # Event day
@@ -148,7 +149,7 @@ class MainWindow(ctk.CTkFrame):
         ctk.CTkLabel(
             card,
             text=day_text,
-            font=ctk.CTkFont(size=10),
+            font=ctk.CTkFont(family=FONT, size=10),
             fg_color="transparent",
             text_color="gray"
         ).place(relx=0.5, rely=0.78, anchor="center")
@@ -180,7 +181,7 @@ class MainWindow(ctk.CTkFrame):
         ctk.CTkLabel(
             card,
             text=npc["npc"],
-            font=ctk.CTkFont(size=11, weight="bold"),
+            font=ctk.CTkFont(family=FONT, size=11, weight="bold"),
             fg_color="transparent",
             text_color="#18280E",
             wraplength=NPC_CARD_WIDTH - 5
@@ -190,7 +191,7 @@ class MainWindow(ctk.CTkFrame):
         ctk.CTkLabel(
             card,
             text=f"Day {npc['day']}",
-            font=ctk.CTkFont(size=10),
+            font=ctk.CTkFont(family=FONT, size=10),
             fg_color="transparent",
             text_color="gray"
         ).place(relx=0.5, rely=0.78, anchor="center")

@@ -4,6 +4,7 @@ from PIL import Image
 from data_loader import resource_path
 
 ICON_FOLDERS = ["farming", "fishing", "foraging", "items", "mining", "recipes"]
+FONT = "Segoe UI"
 
 class NPCDetail(ctk.CTkFrame):
     def __init__(self, parent, npc: dict):
@@ -20,7 +21,7 @@ class NPCDetail(ctk.CTkFrame):
             self,
             corner_radius=12,
             fg_color="#f2edcb",
-            border_width=1,
+            border_width=2,
             border_color="#5a8a3c",
             width=460,
             height=320,
@@ -36,7 +37,7 @@ class NPCDetail(ctk.CTkFrame):
         ctk.CTkLabel(
             left,
             text=npc["npc"],
-            font=ctk.CTkFont(size=15, weight="bold"),
+            font=ctk.CTkFont(family=FONT, size=15, weight="bold"),
             fg_color="transparent",
             text_color="#18280E",
             anchor="w"
@@ -46,7 +47,7 @@ class NPCDetail(ctk.CTkFrame):
         ctk.CTkLabel(
             left,
             text=f"Day {npc['day']}",
-            font=ctk.CTkFont(size=11),
+            font=ctk.CTkFont(family=FONT, size=11),
             fg_color="transparent",
             text_color="gray",
             anchor="w"
@@ -56,7 +57,7 @@ class NPCDetail(ctk.CTkFrame):
         ctk.CTkLabel(
             left,
             text=npc["description"],
-            font=ctk.CTkFont(size=12),
+            font=ctk.CTkFont(family=FONT, size=12),
             fg_color="transparent",
             text_color="#18280E",
             wraplength=260,
@@ -65,13 +66,13 @@ class NPCDetail(ctk.CTkFrame):
         ).pack(anchor="w", pady=(8, 0))
 
         # Divider
-        ctk.CTkFrame(left, height=1, width=260, fg_color="#c8c09a").pack(pady=(15,5), anchor="w")
+        ctk.CTkFrame(left, height=2, width=260, fg_color="#c8c09a").pack(pady=(15,5), anchor="w")
 
         # Loves label
         ctk.CTkLabel(
             left,
             text="Loves",
-            font=ctk.CTkFont(size=11, weight="bold"),
+            font=ctk.CTkFont(family=FONT, size=11, weight="bold"),
             fg_color="transparent",
             text_color="#18280E",
             anchor="w"
@@ -88,7 +89,7 @@ class NPCDetail(ctk.CTkFrame):
         ctk.CTkLabel(
             left,
             text="Likes",
-            font=ctk.CTkFont(size=11, weight="bold"),
+            font=ctk.CTkFont(family=FONT, size=11, weight="bold"),
             fg_color="transparent",
             text_color="#18280E",
             anchor="w"
@@ -170,7 +171,7 @@ class NPCDetail(ctk.CTkFrame):
             self._tooltip = ctk.CTkLabel(
                 self,
                 text=item["name"],
-                font=ctk.CTkFont(size=10),
+                font=ctk.CTkFont(family=FONT, size=10),
                 fg_color="#18280E",
                 text_color="white",
                 corner_radius=4,
