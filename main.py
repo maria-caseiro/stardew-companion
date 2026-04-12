@@ -4,7 +4,7 @@ from ui.main_window import MainWindow
 def main():
     app = ctk.CTk()
     app.title("Stardew Valley Companion")
-    app.geometry("640x360")
+    app.geometry("760x420")
     app.resizable(False, False)
 
     window = MainWindow(app)

@@ -2,14 +2,15 @@ import os
 import customtkinter as ctk
 from PIL import Image
 from data_loader import load_season, resource_path
+from ui.event_detail import EventDetail
 
 SEASONS = ["spring", "summer", "fall", "winter"]
 
 # Fixed card dimensions
-EVENT_CARD_WIDTH = 110
-EVENT_CARD_HEIGHT = 110
-NPC_CARD_WIDTH = 60
-NPC_CARD_HEIGHT = 110
+EVENT_CARD_WIDTH = 130
+EVENT_CARD_HEIGHT = 130
+NPC_CARD_WIDTH = 72
+NPC_CARD_HEIGHT = 130
 
 class MainWindow(ctk.CTkFrame):
     # Main frame
@@ -30,7 +31,7 @@ class MainWindow(ctk.CTkFrame):
     # Season nav buttons
     def _build_nav(self):
         nav = ctk.CTkFrame(self, fg_color="transparent")
-        nav.pack(anchor="center", pady=(12, 0))
+        nav.pack(anchor="center", pady=(15, 0))
 
         for season in SEASONS:
             btn = ctk.CTkButton(
@@ -63,7 +64,7 @@ class MainWindow(ctk.CTkFrame):
             font=ctk.CTkFont(size=13, weight="bold"),
             fg_color="transparent",
             text_color="#18280E"
-        ).pack(anchor="w", pady=(0, 2))
+        ).pack(anchor="w", pady=(2, 5))
 
         # Event grid container
         events_grid = ctk.CTkFrame(self.content, fg_color="transparent")
@@ -79,7 +80,7 @@ class MainWindow(ctk.CTkFrame):
             font=ctk.CTkFont(size=13, weight="bold"),
             fg_color="transparent",
             text_color="#18280E"
-        ).pack(anchor="w", pady=(0, 2))
+        ).pack(anchor="w", pady=(0, 5))
 
         # Birthday grid container
         npc_grid = ctk.CTkFrame(self.content, fg_color="transparent")
@@ -100,19 +101,26 @@ class MainWindow(ctk.CTkFrame):
         except Exception:
             return None
 
+    # Bind click to widget
+    def _bind_click(self, widget, callback):
+        widget.bind("<Button-1>", callback)
+        for child in widget.winfo_children():
+            self._bind_click(child, callback)
+
     def _event_card(self, parent, event: dict, row: int, col: int):
         card = ctk.CTkFrame(
             parent,
             corner_radius=8,
             fg_color="#f2edcb",
             width=EVENT_CARD_WIDTH,
-            height=EVENT_CARD_HEIGHT
+            height=EVENT_CARD_HEIGHT,
+            cursor="heart"
         )
         card.grid(row=row, column=col, padx=4, pady=2, sticky="n")
         card.grid_propagate(False)
 
         # Event icon
-        img = self._load_image("icons", "Event_Icon.png", (28, 28))
+        img = self._load_image("icons", "Event_Icon.png", (35, 35))
         ctk.CTkLabel(
             card,
             image=img,
@@ -124,10 +132,10 @@ class MainWindow(ctk.CTkFrame):
         ctk.CTkLabel(
             card,
             text=event["name"],
-            font=ctk.CTkFont(size=10, weight='bold'),
+            font=ctk.CTkFont(size=11, weight='bold'),
             fg_color="transparent",
             text_color="#18280E",
-            wraplength=EVENT_CARD_WIDTH - 15
+            wraplength=EVENT_CARD_WIDTH - 30
             ).place(relx=0.5, rely=0.55, anchor="center")
 
         # Event day
@@ -144,6 +152,8 @@ class MainWindow(ctk.CTkFrame):
             text_color="gray"
         ).place(relx=0.5, rely=0.78, anchor="center")
 
+        self._bind_click(card, lambda e, ev=event: EventDetail(self, ev))
+
     def _npc_card(self, parent, npc: dict, row: int, col: int):
         card = ctk.CTkFrame(
             parent,
@@ -156,7 +166,7 @@ class MainWindow(ctk.CTkFrame):
         card.grid_propagate(False)
 
         # NPC icon
-        img = self._load_image("npcs", npc["icon"], (35, 35))
+        img = self._load_image("npcs", npc["icon"], (40, 40))
         ctk.CTkLabel(
             card, 
             image=img, 
@@ -168,7 +178,7 @@ class MainWindow(ctk.CTkFrame):
         ctk.CTkLabel(
             card,
             text=npc["npc"],
-            font=ctk.CTkFont(size=10, weight="bold"),
+            font=ctk.CTkFont(size=11, weight="bold"),
             fg_color="transparent",
             text_color="#18280E",
             wraplength=NPC_CARD_WIDTH - 5
@@ -178,7 +188,7 @@ class MainWindow(ctk.CTkFrame):
         ctk.CTkLabel(
             card,
             text=f"Day {npc['day']}",
-            font=ctk.CTkFont(size=9),
+            font=ctk.CTkFont(size=10),
             fg_color="transparent",
             text_color="gray"
         ).place(relx=0.5, rely=0.78, anchor="center")
