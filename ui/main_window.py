@@ -3,6 +3,7 @@ import customtkinter as ctk
 from PIL import Image
 from data_loader import load_season, resource_path
 from ui.event_detail import EventDetail
+from ui.npc_detail import NPCDetail
 
 SEASONS = ["spring", "summer", "fall", "winter"]
 
@@ -160,7 +161,8 @@ class MainWindow(ctk.CTkFrame):
             corner_radius=8,
             fg_color="#f2edcb",
             width=NPC_CARD_WIDTH,
-            height=NPC_CARD_HEIGHT
+            height=NPC_CARD_HEIGHT,
+            cursor="heart"
         )
         card.grid(row=row, column=col, padx=4, pady=4, sticky="n")
         card.grid_propagate(False)
@@ -192,3 +194,5 @@ class MainWindow(ctk.CTkFrame):
             fg_color="transparent",
             text_color="gray"
         ).place(relx=0.5, rely=0.78, anchor="center")
+
+        self._bind_click(card, lambda e, n=npc: NPCDetail(self, n))
