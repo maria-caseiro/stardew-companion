@@ -1,0 +1,74 @@
+name: Build
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [macos-latest, windows-latest]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build on macOS
+        if: runner.os == 'macOS'
+        run: |
+          pyinstaller --onefile --windowed \
+            --add-data "data:data" \
+            --add-data "assets:assets" \
+            --name "StardewCompanion" \
+            main.py
+
+      - name: Build on Windows
+        if: runner.os == 'Windows'
+        run: |
+          pyinstaller --onefile --windowed `
+            --add-data "data;data" `
+            --add-data "assets;assets" `
+            --name "StardewCompanion" `
+            main.py
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: StardewCompanion-${{ runner.os }}
+          path: dist/
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download macOS build
+        uses: actions/download-artifact@v4
+        with:
+          name: StardewCompanion-macOS
+          path: dist/macos
+
+      - name: Download Windows build
+        uses: actions/download-artifact@v4
+        with:
+          name: StardewCompanion-Windows
+          path: dist/windows
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/macos/StardewCompanion
+            dist/windows/StardewCompanion.exe
