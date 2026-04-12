@@ -37,7 +37,7 @@
         { "name": "Leek", "icon": "Leek.png" },
         { "name": "Dandelion", "icon": "Dandelion.png" }
       ],
-      "description": "Pam's daughter. Tutors Vincent and Jas."
+      "description": "Pam's daughter. Tutors Vincent and Jas in the absence of a formal school."
     },
     {
       "day": 5,
@@ -56,7 +56,7 @@
         { "name": "Octopus", "icon": "Octopus.png" },
         { "name": "Squid", "icon": "Squid.png" }
       ],
-      "description": "Lives alone in a cabin on the Beach, working on his novel."
+      "description": "Lives in a cabin on the Beach. Working on his first novel to become a renowned author."
     },
     {
       "day": 11,
@@ -77,7 +77,7 @@
         { "name": "Milk", "icon": "Milk.png" },
         { "name": "Egg", "icon": "Egg.png" }
       ],
-      "description": "Kent's wife and mother of Sam and Vincent."
+      "description": "Kent's wife and mother of Sam and Vincent. Manages the household while Kent is away."
     },
     {
       "day": 13,
@@ -98,7 +98,7 @@
         { "name": "Maple Syrup", "icon": "Maple_Syrup.png" },
         { "name": "Quartz", "icon": "Quartz.png" }
       ],
-      "description": "Pierre and Caroline's daughter."
+      "description": "Pierre and Caroline's daughter. Adventurous and fond of exploring the mines."
     },
     {
       "day": 15,
@@ -115,7 +115,7 @@
         { "name": "Quartz", "icon": "Quartz.png" },
         { "name": "Cactus Fruit", "icon": "Cactus_Fruit.png" }
       ],
-      "description": "Runs the Oasis shop in the Calico Desert."
+      "description": "Runs the Oasis shop in the Calico Desert. Friendly but rarely visits Pelican Town."
     },
     {
       "day": 18,
@@ -132,7 +132,7 @@
         { "name": "Milk", "icon": "Milk.png" },
         { "name": "Egg", "icon": "Egg.png" }
       ],
-      "description": "Runs Marnie's Ranch south of the farm."
+      "description": "Runs Marnie's Ranch south of the farm. Aunt to Shane and guardian of Jas."
     },
     {
       "day": 21,
@@ -149,7 +149,7 @@
         { "name": "Quartz", "icon": "Quartz.png" },
         { "name": "Hardwood", "icon": "Hardwood.png" }
       ],
-      "description": "Carpenter who runs the shop north of town."
+      "description": "Carpenter who runs the shop north of town. Wife of Demetrius and mother of Maru."
     },
     {
       "day": 24,
@@ -164,7 +164,7 @@
         { "name": "Daffodil", "icon": "Daffodil.png" },
         { "name": "Maple Syrup", "icon": "Maple_Syrup.png" }
       ],
-      "description": "Evelyn's husband and Alex's grandfather."
+      "description": "Evelyn's husband and Alex's grandfather. A retired man with limited mobility."
     }
   ]
 }

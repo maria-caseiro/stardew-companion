@@ -56,7 +56,7 @@
         { "name": "Cactus Fruit", "icon": "Cactus_Fruit.png" },
         { "name": "Coconut", "icon": "Coconut.png" }
       ],
-      "description": "Mayor of Pelican Town."
+      "description": "Long-standing mayor of Pelican Town. Organises most of the town's festivals."
     },
     {
       "day": 10,
@@ -75,7 +75,7 @@
         { "name": "Daffodil", "icon": "Daffodil.png" },
         { "name": "Coconut", "icon": "Coconut.png" }
       ],
-      "description": "Jodi and Kent's son."
+      "description": "Jodi and Kent's youngest son. Best friends with Jas and attends school with her."
     },
     {
       "day": 14,
@@ -91,7 +91,7 @@
       "likes": [
         { "name": "Daffodil", "icon": "Daffodil.png" }
       ],
-      "description": "Emily's younger sister."
+      "description": "Emily's younger sister. Enjoys photography and spending time outdoors."
     },
     {
       "day": 18,
@@ -112,7 +112,7 @@
         { "name": "Daffodil", "icon": "Daffodil.png" },
         { "name": "Milk", "icon": "Milk.png" }
       ],
-      "description": "Penny's mother. Drives the bus to the Calico Desert once it is repaired."
+      "description": "Penny's mother. Drives the route to the Calico Desert once the bus is repaired."
     },
     {
       "day": 20,
@@ -129,7 +129,7 @@
         { "name": "Daffodil", "icon": "Daffodil.png" },
         { "name": "Egg", "icon": "Egg.png" }
       ],
-      "description": "Lives at Marnie's Ranch. Works at JojaMart while it is open."
+      "description": "Lives at Marnie's Ranch. Works at JojaMart while it remains open in town."
     },
     {
       "day": 26,
@@ -144,7 +144,7 @@
         { "name": "Daffodil", "icon": "Daffodil.png" },
         { "name": "Dandelion", "icon": "Dandelion.png" }
       ],
-      "description": "Runs the general store in Pelican Town."
+      "description": "Runs the general store in Pelican Town. Husband of Caroline and father of Abigail."
     },
     {
       "day": 27,
@@ -166,7 +166,7 @@
         { "name": "Daffodil", "icon": "Daffodil.png" },
         { "name": "Quartz", "icon": "Quartz.png" }
       ],
-      "description": "Haley's older sister. Works part-time at the Stardrop Saloon."
+      "description": "Haley's older sister. Works part-time at the Stardrop Saloon as a bartender."
     }
   ]
 }

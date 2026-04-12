@@ -50,7 +50,7 @@
         { "name": "Quartz", "icon": "Quartz.png" },
         { "name": "Gold Bar", "icon": "Gold_Bar.png" }
       ],
-      "description": "A shadow creature living in the sewers. Can become a roommate but cannot be romanced."
+      "description": "A shadow creature living in the sewers. Can become a roommate but not romanced."
     },
     {
       "day": 3,
@@ -69,7 +69,7 @@
         { "name": "Daffodil", "icon": "Daffodil.png" },
         { "name": "Snow Yam", "icon": "Snow_Yam.png" }
       ],
-      "description": "Lives in a tent on the mountain north of town."
+      "description": "Lives in a tent on the mountain north of town. Prefers solitude and nature."
     },
     {
       "day": 7,
@@ -86,7 +86,7 @@
         { "name": "Daffodil", "icon": "Daffodil.png" },
         { "name": "Wild Horseradish", "icon": "Wild_Horseradish.png" }
       ],
-      "description": "Pierre's wife and Abigail's mother."
+      "description": "Pierre's wife and Abigail's mother. Tends a small tea garden behind the house."
     },
     {
       "day": 10,
@@ -123,7 +123,7 @@
         { "name": "Winter Root", "icon": "Winter_Root.png" },
         { "name": "Snow Yam", "icon": "Snow_Yam.png" }
       ],
-      "description": "Pelican Town's doctor, runs the clinic."
+      "description": "Pelican Town's only doctor. Runs the clinic and has a passion for vintage aircraft."
     },
     {
       "day": 17,
@@ -161,7 +161,7 @@
         { "name": "Daffodil", "icon": "Daffodil.png" },
         { "name": "Milk", "icon": "Milk.png" }
       ],
-      "description": "George's wife and Alex's grandmother."
+      "description": "George's wife and Alex's grandmother. Tends the flower garden outside their home."
     },
     {
       "day": 23,
@@ -181,7 +181,7 @@
         { "name": "Milk", "icon": "Milk.png" },
         { "name": "Winter Root", "icon": "Winter_Root.png" }
       ],
-      "description": "An artist living in a cottage in Cindersap Forest."
+      "description": "An artist living in a cottage in Cindersap Forest. Carves sculptures from wood."
     },
     {
       "day": 26,
@@ -205,7 +205,7 @@
         { "name": "Copper Bar", "icon": "Copper_Bar.png" },
         { "name": "Iron Bar", "icon": "Iron_Bar.png" }
       ],
-      "description": "The town blacksmith. Upgrades tools and processes ores and geodes."
+      "description": "The town blacksmith. Upgrades tools, processes geodes, and crafts metal bars."
     }
   ]
 }

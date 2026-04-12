@@ -39,7 +39,7 @@
         { "name": "Daffodil", "icon": "Daffodil.png" },
         { "name": "Coconut", "icon": "Coconut.png" }
       ],
-      "description": "Shane's goddaughter. Lives at Marnie's Ranch."
+      "description": "Shane's goddaughter. Lives at Marnie's Ranch and attends school with Vincent."
     },
     {
       "day": 8,
@@ -57,7 +57,7 @@
         { "name": "Daffodil", "icon": "Daffodil.png" },
         { "name": "Truffle", "icon": "Truffle.png" }
       ],
-      "description": "Runs the Stardrop Saloon in Pelican Town."
+      "description": "Runs the Stardrop Saloon in Pelican Town. Known for his warm and welcoming nature."
     },
     {
       "day": 10,
@@ -81,7 +81,7 @@
         { "name": "Chanterelle", "icon": "Chanterelle.png" },
         { "name": "Quartz", "icon": "Quartz.png" }
       ],
-      "description": "Inventor and part-time nurse at Harvey's clinic."
+      "description": "Robin and Demetrius's daughter. Works at Harvey's clinic and builds inventions."
     },
     {
       "day": 13,
@@ -96,7 +96,7 @@
         { "name": "Field Snack", "icon": "Field_Snack.png" },
         { "name": "Egg", "icon": "Egg.png" }
       ],
-      "description": "Lives with his grandparents Evelyn and George."
+      "description": "Lives with his grandparents Evelyn and George. Aspires to become an athlete."
     },
     {
       "day": 17,
@@ -113,7 +113,7 @@
         { "name": "Joja Cola", "icon": "Joja_Cola.png" },
         { "name": "Egg", "icon": "Egg.png" }
       ],
-      "description": "Lives with his family on Willow Lane."
+      "description": "Lives with his family on Willow Lane. Plays guitar and dreams of starting a band."
     },
     {
       "day": 19,
@@ -130,7 +130,7 @@
         { "name": "Egg", "icon": "Egg.png" },
         { "name": "Purple Mushroom", "icon": "Purple_Mushroom.png" }
       ],
-      "description": "Robin's husband and Maru's father."
+      "description": "Robin's husband and Maru's father. A scientist who studies the local ecosystem."
     },
     {
       "day": 22,
@@ -173,7 +173,7 @@
         { "name": "Baked Fish", "icon": "Baked_Fish.png" },
         { "name": "Quartz", "icon": "Quartz.png" }
       ],
-      "description": "Runs the fish shop on the Beach. An experienced fisherman and sailor."
+      "description": "Runs the fish shop on the Beach. A sailor and an experienced fisherman."
     },
     {
       "day": 26,
@@ -191,7 +191,7 @@
         { "name": "Sea Urchin", "icon": "Sea_Urchin.png" },
         { "name": "Quartz", "icon": "Quartz.png" }
       ],
-      "description": "A child living on Ginger Island who thinks he is a parrot."
+      "description": "A child living on Ginger Island who grew up alongside the parrots of the island."
     }
   ]
 }
